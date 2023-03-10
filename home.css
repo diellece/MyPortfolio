@@ -235,7 +235,7 @@ background: -moz-radial-gradient(circle, hsla(300, 59%, 7%, 1) 0%, hsla(300, 100
 background: -webkit-radial-gradient(circle, hsla(300, 59%, 7%, 1) 0%, hsla(300, 100%, 11%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B071B", endColorstr="#390039", GradientType=1 );
-margin-top: 199px;}
+margin-top: 220px;}
 
 #blank a {color: aliceblue; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; margin-left: 600px; font-size: 13px}
 #blank a:hover {color:#B10876;}
