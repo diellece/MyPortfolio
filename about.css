@@ -1,0 +1,271 @@
+*{ padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+		}
+body{
+background: hsla(300, 59%, 7%, 1);
+
+background: radial-gradient(circle, hsla(300, 59%, 7%, 1) 0%, hsla(300, 100%, 11%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(300, 59%, 7%, 1) 0%, hsla(300, 100%, 11%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(300, 59%, 7%, 1) 0%, hsla(300, 100%, 11%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B071B", endColorstr="#390039", GradientType=1 );
+margin-bottom: 100px;
+}
+		
+.menubar ul li a{
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid transparent;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+
+
+.menubar a{
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+ul li .active {
+	background-color:#B10876;
+    color: white;
+    border-radius: 7%;
+}
+
+.menubar a:hover{
+    background-color:#737373;
+    color:white;
+    transition: 0.1s;
+    border-radius: 7%;
+}
+
+nav {
+    float: left;
+	margin-left: 840px;
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+	position:fixed;
+	
+}
+
+ul li{
+    padding: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+li a{
+    color: white;
+}
+
+
+.pic1 img {height: 400px; width:330px; margin-top: 7%; margin-left: 510px; border-radius: 85px; 
+	box-shadow: 1.5px 2px 20px 3px #8F3971; animation-name: zoomIn;
+  animation-duration: 2s;
+ }
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} 
+
+
+		
+#top { 
+margin-left: 8%;
+margin-top: 2%}	
+			
+.fullname { width: 40%; font-size: 30px; margin-top:-32% ; margin-right:50px; color:#5B8FB9; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; }
+h3 {animation: animate__fadeIn; animation-duration: 2s;}
+.fnd {font-size: 18px;  margin-left: -60px; margin-right: 150px; color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";text-indent: 50px;}
+p {animation: animate__fadeIn; animation-duration: 2s;}
+.agebd { width: 40%; font-size: 30px;color:#5B8FB9; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; }
+.abdd {font-size: 18px;  margin-left: -60px; margin-right: 150px; color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; text-indent: 18px; list-style-type: circle; }
+
+
+#STH{ margin-top: 1%;}
+#button1{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+	animation: fadeInRight; animation-duration: 2s;
+}
+
+#button2{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+animation: fadeInRight; animation-duration: 2s}
+	
+#button1 a { 
+	color:black;
+	background-color: #D7D7D7;
+	font-size: 35px;
+	margin-top: -560px;
+	margin-right: 80px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	font-weight: bold; padding: 2px 15px 2px 2px; 
+			border-radius: 15px;
+	position: fixed
+}
+
+#button1 a:hover { color:#B10876;   opacity: 1;
+  transform: scale(1.3)  
+}
+
+#button2 a { 
+	color:black;
+	background-color: #D7D7D7;
+	font-size: 35px;
+	margin-top: -430px;
+	margin-right: 75px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	font-weight: bold; padding:  2px 15px 2px 2px; 
+			border-radius: 15px; 
+	position: fixed
+}
+
+#button2 a:hover { color:#B10876;   transition: 0.1s;opacity: 1;
+  transform: scale(1.3)  
+
+}
+
+#button3{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+	animation: fadeInRight; animation-duration: 2s}
+
+#button3 a { 
+	color:black;
+	background-color: #D7D7D7;
+	font-size: 35px;
+	margin-top: -300px;
+	margin-right: 75px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	font-weight: bold; padding:  2px 15px 2px 2px; 
+			border-radius: 15px; 
+	position: fixed
+}
+
+#button3 a:hover { color:#B10876;   transition: 0.1s;opacity: 1;
+	transform: scale(1.3)}  
+	  
+#button4{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+	animation: fadeInRight; animation-duration: 2s}
+
+#button4 a { 
+	color:black;
+	background-color: #D7D7D7;
+	font-size: 35px;
+	margin-top: -170px;
+	margin-right: 75px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	font-weight: bold; padding:  2px 15px 2px 2px; 
+			border-radius: 15px; 
+	position: fixed
+}
+
+#button4 a:hover { color:#B10876;   transition: 0.1s;opacity: 1;
+  transform: scale(1.3)  
+
+}
+
+
+
+
+
+
+
+
+.arrowleft {color:#5B8FB9;}
+
+.blank {background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,4,34,1) 100%);margin-top: 100px;  padding: 60px}
+
+#STHsec {background-color: black; padding-top: 1px; padding-bottom: 150px; }
+.arrowup img {position:fixed; width: 70px; height: 70px; bottom: 40px; right: 50px;
+		  text-decoration: none; text-align: center; line-height: 50px; background-color:#737373; border-radius: 100px}
+.arrowup img:hover {background-color:#B10876;}
+
+#skillsec h1{ font-size: 50px; margin-top: 1px; margin-bottom: 25px; color:aliceblue; margin-left: 100px; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";  text-shadow: 2px 2px 4px #B10876 ; line-height: 160px;
+}
+#talentsec h1{ font-size: 50px; margin-top: 60px; margin-bottom: 25px; color:aliceblue; margin-left: 100px; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-shadow: 2px 2px 4px #B10876 ; line-height: 160px
+}
+#hobbysec h1{ font-size: 50px; margin-top: 60px; margin-bottom: 25px; color:aliceblue; margin-left: 100px; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-shadow: 2px 2px 4px #B10876 ; line-height: 160px
+}
+#educsec h1{ font-size: 50px; margin-top: 60px; color:aliceblue; margin-left: 100px; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; text-shadow: 2px 2px 4px #B10876 ; line-height: 160px
+}
+
+#educsec h2 {color:aliceblue; margin-left: 125px; }
+.marypic img {height: 200px; width: 200px; margin-left: 180px; margin-top: -160px}
+.rakapic img {height: 250px; width: 220px; margin-left: 170px; margin-top: -180px}
+.lmhmcpic img {height: 210px; width: 210px; margin-left: 180px; margin-top: -160px; margin-bottom: 70px;}
+.gkmpic img {height: 200px; width: 200px; margin-left: 175px; margin-top: -160px}
+.scihipic img {height: 200px; width: 200px; margin-left: 180px; margin-top: -220px}
+.mary h3 {color:aliceblue; margin-left: 450px; margin-top: 80px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.raka h3 {color:aliceblue; margin-left: 450px; margin-top: 60px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.lmhmc h3 {color:aliceblue; margin-left: 450px; margin-top: 30px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.gkm h3 {color:aliceblue; margin-left: 450px; margin-top: 80px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.raka h3 {color:aliceblue; margin-left: 450px; margin-top: 80px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.scihi h3 {color:aliceblue; margin-left: 450px; margin-top: 80px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+
+.year1 {font-size: 16px;}
+.year2 {font-size: 16px;}
+.year3 {font-size: 16px;}
+.year4 {font-size: 16px;}
+.year5 {font-size: 16px;}
+.year6 {font-size: 16px;}
+.year7 {font-size: 16px;}
+.p1 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.p2 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.p3 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.p4 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.p5 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.p6 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.p7 {color: aliceblue; margin-left: 450px; margin-top: 50px;}
+.code img{ height: 520px; width: 1263px; margin-top: -40px; }
+.gd img {height: 520px; width: 1263px; }
+.sing img {height: 520px; width: 1263px; margin-top: -40px; }
+.acting img {height: 520px; width: 1263px; }
+.eat img {height: 520px; width: 1263px; margin-top: -40px; }
+.travel img {height: 520px; width: 1263px; }
+.makeup img {height: 520px; width: 1263px; }
+.music img  {height: 520px; width: 1263px; }
+.tiktok img  {height: 520px; width: 1263px; }
+
+#contact {margin-left: 100px; margin-bottom: -35px; margin-top: -30px;}
+#contact a {color: aliceblue; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; font-size: 13px;}
+#contact a:hover {color:#B10876;}
